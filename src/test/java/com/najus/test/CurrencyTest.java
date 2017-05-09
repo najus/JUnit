@@ -21,6 +21,8 @@ public class CurrencyTest {
 	public void testConversion() {
 		assertEquals("zero", converter.convert(0));
 		assertEquals("twenty five", converter.convert(25));
+		assertEquals("one hundred twenty nine", converter.convert(129));
+		assertEquals("one thousand one", converter.convert(1001));
 	}
 
 	@After

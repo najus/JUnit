@@ -30,13 +30,22 @@ public class CurrencyConverter {
 		return numNames[number] + " hundred" + current;
 	}
 
-	public String convert(int currencyNum) {
-		if (currencyNum == 0)
+	public String convert(int num) {
+		String current = "";
+		int place = 0;
+
+		if (num == 0)
 			return "zero";
-		else if (currencyNum > 0) {
-			return convertLessThanOneThousand(currencyNum).trim();
-		} else
-			return "oh oh";
+		do {
+			int n = num % 1000;
+			if (n != 0) {
+				String temp = convertLessThanOneThousand(n);
+				current = temp + specialNames[place] + current;
+			}
+			place++;
+			num /= 1000;
+		} while (num > 0);
+		return current.trim();
 	}
 
 }
