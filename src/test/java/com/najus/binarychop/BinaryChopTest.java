@@ -25,4 +25,9 @@ public class BinaryChopTest {
 		assertEquals(4, bChop.search(5, arrayOfIntegers));
 	}
 
+	@Test
+	public void searchIntegerWhichIsNotInInput() {
+		assertEquals(-1, bChop.search(6, arrayOfIntegers));
+	}
+
 }
