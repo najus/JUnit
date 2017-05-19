@@ -20,4 +20,23 @@ public class BinaryChop {
 
 	}
 
+	public int searchRecursive(int searchTarget, int[] inputArray) {
+		return binarySearchRecursive(searchTarget, 0, inputArray.length - 1, inputArray);
+
+	}
+
+	private int binarySearchRecursive(int searchTarget, int start, int end, int[] inputArray) {
+		int midPoint = (start + end) / 2;
+		if (end < start)
+			return -1;
+
+		if (searchTarget == inputArray[midPoint]) {
+			return midPoint;
+		} else if (searchTarget < inputArray[midPoint]) {
+			return binarySearchRecursive(searchTarget, start, midPoint - 1, inputArray);
+		} else {
+			return binarySearchRecursive(searchTarget, midPoint + 1, end, inputArray);
+		}
+	}
+
 }
