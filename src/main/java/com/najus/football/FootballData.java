@@ -6,7 +6,7 @@ import java.io.FileReader;
 
 public class FootballData {
 
-	public Object readData(String inputPath) {
+	public BufferedReader readData(String inputPath) {
 		BufferedReader reader = null;
 		try {
 			reader = new BufferedReader(new FileReader(inputPath));
