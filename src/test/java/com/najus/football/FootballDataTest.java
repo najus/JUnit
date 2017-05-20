@@ -3,14 +3,26 @@ package com.najus.football;
 import org.junit.Test;
 import static org.junit.Assert.*;
 
+import org.junit.Before;
+
 public class FootballDataTest {
 
+	FootballData footballData;
 	private final String inputPath = "resources/football.dat";
+
+	@Before
+	public void setUp() {
+		footballData = new FootballData(inputPath);
+	}
 
 	@Test
 	public void testIfTheDataIsReadCorrectly() {
-		FootballData footballData = new FootballData();
-		assertNotNull(footballData.readData(inputPath));
+		assertNotNull(footballData.readData());
+	}
+
+	@Test
+	public void testTheTeamWithSmallestGoalDifference() {
+		assertEquals("Aston_Villa", footballData.getTeamHavingSmallestGoalDifference());
 	}
 
 }
