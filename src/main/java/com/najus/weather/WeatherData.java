@@ -16,7 +16,7 @@ public class WeatherData {
 		BufferedReader reader = readFromPath(inputPath);
 		Map<Integer, Double> result = new LinkedHashMap<>();
 		Stream<String> readerStream = reader.lines();
-		List streamOfArrays = readerStream.filter(x -> x.length() > 0).map(x -> x.replaceAll("[ ]+", " "))
+		List<String[]> streamOfArrays = readerStream.filter(x -> x.length() > 0).map(x -> x.replaceAll("[ ]+", " "))
 				.map(x -> x.replaceAll("\\*", "")).filter(x -> !x.contains("Dy") && !x.contains("mo"))
 				.map(x -> x.split(" ")).collect(Collectors.toList());
 		Map<Integer, Double> temp = (Map<Integer, Double>) streamOfArrays.stream()

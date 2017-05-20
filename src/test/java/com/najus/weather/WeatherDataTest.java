@@ -21,7 +21,6 @@ public class WeatherDataTest {
 
 	@Test
 	public void getTheDayForSmallestTemperatureSpread() {
-
 		assertEquals(14, wData.findDayWithSmallestTemperatureSpread(inputPath));
 	}
 
