@@ -24,7 +24,8 @@ public class Anagram {
 			e.printStackTrace();
 		}
 
-		return reader.lines().collect(Collectors.groupingBy(x -> sorted(x)));
+		Map<String, List<String>> sortedMapOfAnagrams = reader.lines().collect(Collectors.groupingBy(x -> sorted(x)));
+		return sortedMapOfAnagrams;
 
 	}
 
