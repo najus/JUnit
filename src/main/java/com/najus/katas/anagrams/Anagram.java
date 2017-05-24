@@ -1,4 +1,4 @@
-package com.najus.anagrams;
+package com.najus.katas.anagrams;
 
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;

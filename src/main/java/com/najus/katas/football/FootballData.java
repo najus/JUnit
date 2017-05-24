@@ -1,4 +1,4 @@
-package com.najus.football;
+package com.najus.katas.football;
 
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;

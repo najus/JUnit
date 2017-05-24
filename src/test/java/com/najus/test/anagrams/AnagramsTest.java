@@ -1,4 +1,4 @@
-package com.najus.anagrams;
+package com.najus.test.anagrams;
 
 import static org.hamcrest.MatcherAssert.assertThat;
 
@@ -10,6 +10,8 @@ import java.util.Map;
 import org.hamcrest.collection.IsMapContaining;
 import org.junit.Before;
 import org.junit.Test;
+
+import com.najus.katas.anagrams.Anagram;
 
 public class AnagramsTest {
 

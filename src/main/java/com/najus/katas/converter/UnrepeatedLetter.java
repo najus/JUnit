@@ -1,4 +1,4 @@
-package com.najus.converter;
+package com.najus.katas.converter;
 
 import java.util.LinkedHashMap;
 import java.util.Map;

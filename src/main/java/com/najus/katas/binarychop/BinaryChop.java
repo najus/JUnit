@@ -1,4 +1,4 @@
-package com.najus.binarychop;
+package com.najus.katas.binarychop;
 
 public class BinaryChop {
 

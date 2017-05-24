@@ -1,6 +1,9 @@
-package com.najus.binarychop;
+package com.najus.test.binarychop;
 
 import org.junit.Test;
+
+import com.najus.katas.binarychop.BinaryChop;
+
 import static org.junit.Assert.*;
 
 import org.junit.Before;

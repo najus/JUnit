@@ -1,4 +1,4 @@
-package com.najus.converter;
+package com.najus.katas.converter;
 
 public class CurrencyConverter {
 

@@ -6,7 +6,7 @@ import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 
-import com.najus.converter.CurrencyConverter;
+import com.najus.katas.converter.CurrencyConverter;
 
 public class CurrencyTest {
 

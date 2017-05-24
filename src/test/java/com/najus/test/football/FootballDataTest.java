@@ -1,6 +1,9 @@
-package com.najus.football;
+package com.najus.test.football;
 
 import org.junit.Test;
+
+import com.najus.katas.football.FootballData;
+
 import static org.junit.Assert.*;
 
 import org.junit.Before;

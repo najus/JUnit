@@ -1,4 +1,4 @@
-package com.najus.binaryrepresentation;
+package com.najus.katas.binaryrepresentation;
 
 public class BinaryRepresentation {
 	private StringBuilder sb = new StringBuilder();

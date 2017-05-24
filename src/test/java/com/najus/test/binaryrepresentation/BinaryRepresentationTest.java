@@ -1,6 +1,9 @@
-package com.najus.binaryrepresentation;
+package com.najus.test.binaryrepresentation;
 
 import org.junit.Test;
+
+import com.najus.katas.binaryrepresentation.BinaryRepresentation;
+
 import static org.junit.Assert.*;
 
 public class BinaryRepresentationTest {

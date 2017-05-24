@@ -3,9 +3,10 @@ package com.najus.test;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
-import static org.junit.Assert.*;
 
-import com.najus.converter.UnrepeatedLetter;
+import com.najus.katas.converter.UnrepeatedLetter;
+
+import static org.junit.Assert.*;
 
 public class UnrepeatedLetterTest {
 
