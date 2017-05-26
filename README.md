@@ -8,3 +8,5 @@
    [WeatherData.java](Katas/src/main/java/com/najus/weather/WeatherData.java)   
 4. Anagram - http://codekata.com/kata/kata06-anagrams/
    [Anagram.java](Katas/src/main/java/com/najus/anagrams/Anagram.java)
+5. RomanNumerals - http://agilekatas.co.uk/katas/RomanNumerals-Kata
+   [RomanNumerals.java](Katas/src/main/java/com/najus/katas/romannumerals/RomanNumeral.java)
